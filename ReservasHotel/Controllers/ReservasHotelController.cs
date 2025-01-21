@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ReservasHotel.Migrations;
 using static ReservasHotel.AppDBContext;
 
 namespace ReservasHotel.Controllers
@@ -27,11 +28,13 @@ namespace ReservasHotel.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateServicio(ServicioAdicional servicio)
         {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
             if (_appDBcontext.ServiciosAdicionales.Find(servicio.IdServicio) != null) return BadRequest("Ya existe un servicio con este id");
 
-            if(_appDBcontext.Reservas.Find(servicio.IdReserva) == null) return BadRequest("La reserva no existe");
+            if (_appDBcontext.Reservas.Find(servicio.IdReserva) == null) return BadRequest("La reserva no existe");
 
-            if(servicio.Costo < 0) return BadRequest("El servicio no puede tener un costo negativo");
+            if (servicio.Costo < 0) return BadRequest("El servicio no puede tener un costo negativo");
 
             _appDBcontext.ServiciosAdicionales.Add(servicio);
             await _appDBcontext.SaveChangesAsync();
@@ -41,6 +44,8 @@ namespace ReservasHotel.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateServicio(int id, ServicioAdicional servicio)
         {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
             var servicioExistente = await _appDBcontext.ServiciosAdicionales.FindAsync(id);
 
             if (servicioExistente == null) return NotFound("No existe un servicio con este id");
@@ -73,7 +78,7 @@ namespace ReservasHotel.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
-    public class  ReservaController : ControllerBase
+    public class ReservaController : ControllerBase
     {
         private readonly AppDBContext _appDBcontext;
 
@@ -92,6 +97,8 @@ namespace ReservasHotel.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateReserva(Reserva reserva)
         {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
             if (_appDBcontext.Reservas.Find(reserva.IdReserva) != null) return BadRequest("Ya existe una reserva con este id");
 
             if (_appDBcontext.Habitaciones.Find(reserva.IdHabitacion) == null) return BadRequest("La habitación no existe.");
@@ -112,6 +119,8 @@ namespace ReservasHotel.Controllers
         public async Task<IActionResult> UpdateReserva(int id, Reserva reserva)
         {
             var reservaExistente = await _appDBcontext.Reservas.FindAsync(id);
+
+            if (!ModelState.IsValid) return BadRequest(ModelState);
 
             if (reservaExistente == null) return NotFound("No existe una reserva con este id");
 
@@ -198,9 +207,11 @@ namespace ReservasHotel.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateCliente(Cliente cliente)
         {
-            if(_appDBcontext.Clientes.Find(cliente.IdCLiente) != null) return BadRequest("Ya existe un cliente con este id");
+            if (!ModelState.IsValid) return BadRequest(ModelState);
 
-            if(_appDBcontext.Clientes.Find(cliente.CI) != null) return BadRequest("Ya existe un cliente con esta cedula");
+            if (_appDBcontext.Clientes.Find(cliente.IdCliente) != null) return BadRequest("Ya existe un cliente con este id");
+
+            if (_appDBcontext.Clientes.Find(cliente.CI) != null) return BadRequest("Ya existe un cliente con esta cedula");
 
             if (!EsCedulaValida(cliente.CI)) return BadRequest("La cédula ingresada no es válida");
 
@@ -213,6 +224,8 @@ namespace ReservasHotel.Controllers
         public async Task<IActionResult> UpdateCliente(int id, Cliente cliente)
         {
             var clienteExistente = await _appDBcontext.Clientes.FindAsync(id);
+
+            if (!ModelState.IsValid) return BadRequest(ModelState);
 
             if (clienteExistente == null) return NotFound("No existe un cliente con este id");
 
@@ -262,6 +275,8 @@ namespace ReservasHotel.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateHabitacion(Habitacion habitacion)
         {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
             if (_appDBcontext.Habitaciones.Find(habitacion.IdHabitacion) != null) return BadRequest("Ya existe una habitación con este id");
 
             _appDBcontext.Habitaciones.Add(habitacion);
@@ -273,6 +288,8 @@ namespace ReservasHotel.Controllers
         public async Task<IActionResult> UpdateHabitacion(int id, Habitacion habitacion)
         {
             var habitacionExistente = await _appDBcontext.Habitaciones.FindAsync(id);
+
+            if (!ModelState.IsValid) return BadRequest(ModelState);
 
             if (habitacionExistente == null) return NotFound("No existe una habitación con este id");
 
@@ -289,6 +306,8 @@ namespace ReservasHotel.Controllers
             var habitacion = await _appDBcontext.Habitaciones.FindAsync(id);
 
             if (habitacion == null) return NotFound("No existe una habitación con este id");
+
+            if (habitacion.Reservas.Count > 0) return BadRequest("No se puede eliminar la habitación porque tiene relaciones");
 
             _appDBcontext.Habitaciones.Remove(habitacion);
             await _appDBcontext.SaveChangesAsync();

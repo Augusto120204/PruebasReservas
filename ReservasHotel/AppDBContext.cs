@@ -47,8 +47,14 @@ namespace ReservasHotel
     {
         [Key]
         public int IdHabitacion { get; set; }
+
+        [Required(ErrorMessage = "El tipo de habitación es obligatorio.")]
+        [StringLength(50, ErrorMessage = "El tipo no puede superar los 50 caracteres.")]
         public string? Tipo { get; set; }
+
+        [Required(ErrorMessage = "El estado de disponibilidad es obligatorio.")]
         public bool? Disponible { get; set; }
+
         [JsonIgnore]
         public ICollection<Reserva> Reservas { get; set; } = new List<Reserva>();
     }
@@ -56,9 +62,18 @@ namespace ReservasHotel
     public class Cliente
     {
         [Key]
-        public int IdCLiente { get; set; }
+        public int IdCliente { get; set; }
+
+        [Required(ErrorMessage = "El nombre es obligatorio.")]
+        [StringLength(50, ErrorMessage = "El nombre no puede superar los 50 caracteres.")]
         public string? Nombre { get; set; }
+
+        [Required(ErrorMessage = "El apellido es obligatorio.")]
+        [StringLength(50, ErrorMessage = "El apellido no puede superar los 50 caracteres.")]
         public string? Apellido { get; set; }
+
+        [Required(ErrorMessage = "La cédula es obligatoria.")]
+        [StringLength(10, MinimumLength = 10, ErrorMessage = "La cédula debe tener 10 caracteres.")]
         public string? CI { get; set; }
         [JsonIgnore]
         public ICollection<Reserva> Reservas { get; set; } = new List<Reserva>();
@@ -68,9 +83,17 @@ namespace ReservasHotel
     {
         [Key]
         public int IdServicio { get; set; }
+
+        [Required(ErrorMessage = "La descripción es obligatoria.")]
+        [StringLength(250, ErrorMessage = "La descripción no puede superar los 250 caracteres.")]
         public string? Descripcion { get; set; }
-        public Decimal? Costo { get; set; }
+
+        [Required(ErrorMessage = "El costo es obligatorio.")]
+        public decimal? Costo { get; set; }
+
+        [Required(ErrorMessage = "El ID de la reserva es obligatorio.")]
         public int? IdReserva { get; set; }
+
         [JsonIgnore]
         public Reserva? Reserva { get; set; }
     }
@@ -79,15 +102,27 @@ namespace ReservasHotel
     {
         [Key]
         public int IdReserva { get; set; }
+        [Required(ErrorMessage = "El ID del cliente es obligatorio.")]
         public int? IdCliente { get; set; }
+
         [JsonIgnore]
         public Cliente? Cliente { get; set; }
+
+        [Required(ErrorMessage = "El ID de la habitación es obligatorio.")]
         public int? IdHabitacion { get; set; }
+
         [JsonIgnore]
         public Habitacion? Habitacion { get; set; }
-        public Decimal? Costo { get; set; }
+
+        [Required(ErrorMessage = "El costo es obligatorio.")]
+        public decimal? Costo { get; set; }
+
+        [Required(ErrorMessage = "La fecha de inicio es obligatoria.")]
         public DateTime? FechaInicio { get; set; }
+
+        [Required(ErrorMessage = "La fecha de fin es obligatoria.")]
         public DateTime? FechaFin { get; set; }
+
         [JsonIgnore]
         public ICollection<ServicioAdicional> ServiciosAdicionales { get; set; } = new List<ServicioAdicional>();
     }

@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\",
+  "WorkspaceRootPath": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|c:\\users\\cesar\\source\\repos\\reservashotel\\reservashotel\\controllers\\reservashotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|c:\\users\\ariel\\desktop\\pruebas\\pruebasreservas\\reservashotel\\controllers\\reservashotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|solutionrelative:reservashotel\\controllers\\reservashotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|c:\\users\\cesar\\source\\repos\\reservashotel\\reservashotel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|c:\\users\\ariel\\desktop\\pruebas\\pruebasreservas\\reservashotel\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|solutionrelative:reservashotel\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|c:\\users\\ariel\\desktop\\pruebas\\pruebasreservas\\reservashotel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|solutionrelative:reservashotel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|c:\\users\\cesar\\source\\repos\\reservashotel\\reservashotel\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|c:\\users\\ariel\\desktop\\pruebas\\pruebasreservas\\reservashotel\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|solutionrelative:reservashotel\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|c:\\users\\cesar\\source\\repos\\reservashotel\\reservashotel\\reservashotel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|c:\\users\\ariel\\desktop\\pruebas\\pruebasreservas\\reservashotel\\reservashotel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|solutionrelative:reservashotel\\reservashotel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F89E68-30AB-4711-8D6F-8708299B9238}|TestReservas\\TestReservas.csproj|c:\\users\\cesar\\source\\repos\\reservashotel\\testreservas\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66F89E68-30AB-4711-8D6F-8708299B9238}|TestReservas\\TestReservas.csproj|c:\\users\\ariel\\desktop\\pruebas\\pruebasreservas\\testreservas\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66F89E68-30AB-4711-8D6F-8708299B9238}|TestReservas\\TestReservas.csproj|solutionrelative:testreservas\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|c:\\users\\cesar\\source\\repos\\reservashotel\\reservashotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|c:\\users\\ariel\\desktop\\pruebas\\pruebasreservas\\reservashotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|solutionrelative:reservashotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|c:\\users\\cesar\\source\\repos\\reservashotel\\reservashotel\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC3610E-4004-4E44-B768-61E700A020E7}|ReservasHotel\\ReservasHotel.csproj|solutionrelative:reservashotel\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,15 +38,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ReservasHotel.csproj",
-              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\ReservasHotel\\ReservasHotel.csproj",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\ReservasHotel.csproj",
               "RelativeDocumentMoniker": "ReservasHotel\\ReservasHotel.csproj",
-              "ToolTip": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\ReservasHotel\\ReservasHotel.csproj",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\ReservasHotel.csproj",
               "RelativeToolTip": "ReservasHotel\\ReservasHotel.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -54,11 +62,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": ".env",
-              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\ReservasHotel\\.env",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\.env",
               "RelativeDocumentMoniker": "ReservasHotel\\.env",
-              "ToolTip": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\ReservasHotel\\.env",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\.env",
               "RelativeToolTip": "ReservasHotel\\.env",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -66,11 +74,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\TestReservas\\UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\TestReservas\\UnitTest1.cs",
               "RelativeDocumentMoniker": "TestReservas\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\TestReservas\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\TestReservas\\UnitTest1.cs",
               "RelativeToolTip": "TestReservas\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -80,22 +88,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ReservasHotelController.cs",
-              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\ReservasHotel\\Controllers\\ReservasHotelController.cs",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\Controllers\\ReservasHotelController.cs",
               "RelativeDocumentMoniker": "ReservasHotel\\Controllers\\ReservasHotelController.cs",
-              "ToolTip": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\ReservasHotel\\Controllers\\ReservasHotelController.cs",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\Controllers\\ReservasHotelController.cs",
               "RelativeToolTip": "ReservasHotel\\Controllers\\ReservasHotelController.cs",
-              "ViewState": "AgIAAAsBAAAAAAAAAAAuwBsBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T17:03:09.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\ReservasHotel\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\Program.cs",
               "RelativeDocumentMoniker": "ReservasHotel\\Program.cs",
-              "ToolTip": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\ReservasHotel\\Program.cs",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\Program.cs",
               "RelativeToolTip": "ReservasHotel\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -103,23 +111,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "AppDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\ReservasHotel\\AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\AppDBContext.cs",
               "RelativeDocumentMoniker": "ReservasHotel\\AppDBContext.cs",
-              "ToolTip": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\ReservasHotel\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\AppDBContext.cs",
               "RelativeToolTip": "ReservasHotel\\AppDBContext.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAA9wFkAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAgwH8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T16:31:46.838Z"
+              "WhenOpened": "2025-01-16T16:31:46.838Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\ReservasHotel\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\appsettings.json",
               "RelativeDocumentMoniker": "ReservasHotel\\appsettings.json",
-              "ToolTip": "C:\\Users\\cesar\\source\\repos\\ReservasHotel\\ReservasHotel\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\appsettings.json",
               "RelativeToolTip": "ReservasHotel\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",

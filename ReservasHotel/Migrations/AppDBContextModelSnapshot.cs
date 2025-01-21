@@ -24,22 +24,28 @@ namespace ReservasHotel.Migrations
 
             modelBuilder.Entity("ReservasHotel.Cliente", b =>
                 {
-                    b.Property<int>("IdCLiente")
+                    b.Property<int>("IdCliente")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCLiente"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCliente"));
 
                     b.Property<string>("Apellido")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("CI")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("Nombre")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("IdCLiente");
+                    b.HasKey("IdCliente");
 
                     b.ToTable("Clientes");
                 });
@@ -52,11 +58,13 @@ namespace ReservasHotel.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdHabitacion"));
 
-                    b.Property<bool?>("Disponible")
+                    b.Property<bool>("Disponible")
                         .HasColumnType("bit");
 
                     b.Property<string>("Tipo")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("IdHabitacion");
 
@@ -71,20 +79,20 @@ namespace ReservasHotel.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdReserva"));
 
-                    b.Property<decimal?>("Costo")
+                    b.Property<decimal>("Costo")
                         .HasPrecision(10, 2)
                         .HasColumnType("decimal(10,2)");
 
-                    b.Property<DateTime?>("FechaFin")
+                    b.Property<DateTime>("FechaFin")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("FechaInicio")
+                    b.Property<DateTime>("FechaInicio")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("IdCliente")
+                    b.Property<int>("IdCliente")
                         .HasColumnType("int");
 
-                    b.Property<int?>("IdHabitacion")
+                    b.Property<int>("IdHabitacion")
                         .HasColumnType("int");
 
                     b.HasKey("IdReserva");
@@ -104,14 +112,16 @@ namespace ReservasHotel.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdServicio"));
 
-                    b.Property<decimal?>("Costo")
+                    b.Property<decimal>("Costo")
                         .HasPrecision(10, 2)
                         .HasColumnType("decimal(10,2)");
 
                     b.Property<string>("Descripcion")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
 
-                    b.Property<int?>("IdReserva")
+                    b.Property<int>("IdReserva")
                         .HasColumnType("int");
 
                     b.HasKey("IdServicio");
@@ -125,11 +135,15 @@ namespace ReservasHotel.Migrations
                 {
                     b.HasOne("ReservasHotel.Cliente", "Cliente")
                         .WithMany("Reservas")
-                        .HasForeignKey("IdCliente");
+                        .HasForeignKey("IdCliente")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("ReservasHotel.Habitacion", "Habitacion")
                         .WithMany("Reservas")
-                        .HasForeignKey("IdHabitacion");
+                        .HasForeignKey("IdHabitacion")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Cliente");
 
@@ -140,7 +154,9 @@ namespace ReservasHotel.Migrations
                 {
                     b.HasOne("ReservasHotel.Reserva", "Reserva")
                         .WithMany("ServiciosAdicionales")
-                        .HasForeignKey("IdReserva");
+                        .HasForeignKey("IdReserva")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Reserva");
                 });

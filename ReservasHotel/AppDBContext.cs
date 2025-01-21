@@ -46,7 +46,7 @@ namespace ReservasHotel
     public class Habitacion
     {
         [Key]
-        public int IdHabitacion { get; set; }
+        public int? IdHabitacion { get; set; }
 
         [Required(ErrorMessage = "El tipo de habitación es obligatorio.")]
         [StringLength(50, ErrorMessage = "El tipo no puede superar los 50 caracteres.")]
@@ -62,7 +62,7 @@ namespace ReservasHotel
     public class Cliente
     {
         [Key]
-        public int IdCliente { get; set; }
+        public int? IdCliente { get; set; }
 
         [Required(ErrorMessage = "El nombre es obligatorio.")]
         [StringLength(50, ErrorMessage = "El nombre no puede superar los 50 caracteres.")]
@@ -82,7 +82,7 @@ namespace ReservasHotel
     public class ServicioAdicional
     {
         [Key]
-        public int IdServicio { get; set; }
+        public int? IdServicio { get; set; }
 
         [Required(ErrorMessage = "La descripción es obligatoria.")]
         [StringLength(250, ErrorMessage = "La descripción no puede superar los 250 caracteres.")]
@@ -101,7 +101,7 @@ namespace ReservasHotel
     public class Reserva
     {
         [Key]
-        public int IdReserva { get; set; }
+        public int? IdReserva { get; set; }
         [Required(ErrorMessage = "El ID del cliente es obligatorio.")]
         public int? IdCliente { get; set; }
 

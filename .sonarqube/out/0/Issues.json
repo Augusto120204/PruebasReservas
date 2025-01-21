@@ -1,0 +1,1955 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.12.0.0",
+        "fileVersion": "4.12.0-3.24570.6 (913fb4ec)",
+        "semanticVersion": "4.12.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Habitaciones' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/AppDBContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 16,
+                  "endLine": 9,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/AppDBContext.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 34,
+                  "endLine": 12,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Reservas' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/AppDBContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 16,
+                  "endLine": 9,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/AppDBContext.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 31,
+                  "endLine": 13,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Clientes' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/AppDBContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 16,
+                  "endLine": 9,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/AppDBContext.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 31,
+                  "endLine": 14,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'ServiciosAdicionales' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/AppDBContext.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 16,
+                  "endLine": 9,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/AppDBContext.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 41,
+                  "endLine": 15,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'FK_Reservas_Clientes_IdCliente' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 23,
+                  "endLine": 175,
+                  "endColumn": 55
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 23,
+                  "endLine": 203,
+                  "endColumn": 55
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 337,
+                  "startColumn": 23,
+                  "endLine": 337,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'SqlServer:Identity' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 37,
+                  "endLine": 19,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 37,
+                  "endLine": 34,
+                  "endColumn": 57
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 37,
+                  "endLine": 48,
+                  "endColumn": 57
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 37,
+                  "endLine": 75,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'nvarchar(max)' 5 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 57,
+                  "endLine": 20,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 59,
+                  "endLine": 21,
+                  "endColumn": 74
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 53,
+                  "endLine": 22,
+                  "endColumn": 68
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 55,
+                  "endLine": 35,
+                  "endColumn": 70
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 62,
+                  "endLine": 76,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Reservas' 20 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 24,
+                  "endLine": 16,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 24,
+                  "endLine": 20,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 24,
+                  "endLine": 68,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 24,
+                  "endLine": 78,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 24,
+                  "endLine": 88,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 24,
+                  "endLine": 98,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 24,
+                  "endLine": 108,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 24,
+                  "endLine": 176,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 184,
+                  "startColumn": 24,
+                  "endLine": 184,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 194,
+                  "startColumn": 33,
+                  "endLine": 194,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 24,
+                  "endLine": 204,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 24,
+                  "endLine": 208,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 250,
+                  "startColumn": 24,
+                  "endLine": 250,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 258,
+                  "startColumn": 24,
+                  "endLine": 258,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 266,
+                  "startColumn": 24,
+                  "endLine": 266,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 24,
+                  "endLine": 274,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 282,
+                  "startColumn": 24,
+                  "endLine": 282,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 338,
+                  "startColumn": 24,
+                  "endLine": 338,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 345,
+                  "startColumn": 24,
+                  "endLine": 345,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 354,
+                  "startColumn": 33,
+                  "endLine": 354,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "10": null,
+              "11": null,
+              "12": null,
+              "13": null,
+              "14": null,
+              "15": null,
+              "16": null,
+              "17": null,
+              "18": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null,
+              "6": null,
+              "7": null,
+              "8": null,
+              "9": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Reservas' 5 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 23,
+                  "endLine": 44,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 41,
+                  "endLine": 86,
+                  "endColumn": 51
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 24,
+                  "endLine": 92,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 24,
+                  "endLine": 97,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250116173636_InitalCreate.cs",
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 23,
+                  "endLine": 113,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'FK_Reservas_Habitaciones_IdHabitacion' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 23,
+                  "endLine": 19,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 23,
+                  "endLine": 183,
+                  "endColumn": 62
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 23,
+                  "endLine": 207,
+                  "endColumn": 62
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 344,
+                  "startColumn": 23,
+                  "endLine": 344,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'FK_ServiciosAdicionales_Reservas_IdReserva' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 23,
+                  "endLine": 23,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 23,
+                  "endLine": 191,
+                  "endColumn": 67
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 211,
+                  "startColumn": 23,
+                  "endLine": 211,
+                  "endColumn": 67
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 23,
+                  "endLine": 351,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'ServiciosAdicionales' 10 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 24,
+                  "endLine": 24,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 24,
+                  "endLine": 33,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 24,
+                  "endLine": 43,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 24,
+                  "endLine": 54,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 24,
+                  "endLine": 192,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 24,
+                  "endLine": 212,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 24,
+                  "endLine": 221,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 229,
+                  "startColumn": 24,
+                  "endLine": 229,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 238,
+                  "startColumn": 24,
+                  "endLine": 238,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 352,
+                  "startColumn": 24,
+                  "endLine": 352,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null,
+              "6": null,
+              "7": null,
+              "8": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Clientes' 10 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 24,
+                  "endLine": 28,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 24,
+                  "endLine": 143,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 24,
+                  "endLine": 154,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 24,
+                  "endLine": 165,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 33,
+                  "endLine": 178,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 24,
+                  "endLine": 216,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 311,
+                  "startColumn": 24,
+                  "endLine": 311,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 320,
+                  "startColumn": 24,
+                  "endLine": 320,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 329,
+                  "startColumn": 24,
+                  "endLine": 329,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 340,
+                  "startColumn": 33,
+                  "endLine": 340,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null,
+              "6": null,
+              "7": null,
+              "8": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'IdCliente' 7 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 26,
+                  "endLine": 29,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 23,
+                  "endLine": 77,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 25,
+                  "endLine": 177,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 179,
+                  "startColumn": 34,
+                  "endLine": 179,
+                  "endColumn": 45
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 215,
+                  "startColumn": 23,
+                  "endLine": 215,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 257,
+                  "startColumn": 23,
+                  "endLine": 257,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 339,
+                  "startColumn": 25,
+                  "endLine": 339,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'IdReserva' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 23,
+                  "endLine": 32,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 193,
+                  "startColumn": 25,
+                  "endLine": 193,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 34,
+                  "endLine": 195,
+                  "endColumn": 45
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 23,
+                  "endLine": 220,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 353,
+                  "startColumn": 25,
+                  "endLine": 353,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 355,
+                  "startColumn": 34,
+                  "endLine": 355,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'nvarchar(max)' 10 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 26,
+                  "endLine": 49,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 26,
+                  "endLine": 128,
+                  "endColumn": 41
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 26,
+                  "endLine": 149,
+                  "endColumn": 41
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 26,
+                  "endLine": 160,
+                  "endColumn": 41
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 171,
+                  "startColumn": 26,
+                  "endLine": 171,
+                  "endColumn": 41
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 230,
+                  "startColumn": 23,
+                  "endLine": 230,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 295,
+                  "startColumn": 23,
+                  "endLine": 295,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 312,
+                  "startColumn": 23,
+                  "endLine": 312,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 321,
+                  "startColumn": 23,
+                  "endLine": 321,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 330,
+                  "startColumn": 23,
+                  "endLine": 330,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null,
+              "6": null,
+              "7": null,
+              "8": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Costo' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 23,
+                  "endLine": 53,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 23,
+                  "endLine": 107,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 237,
+                  "startColumn": 23,
+                  "endLine": 237,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 281,
+                  "startColumn": 23,
+                  "endLine": 281,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'decimal(10,2)' 8 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 23,
+                  "endLine": 55,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 26,
+                  "endLine": 61,
+                  "endColumn": 41
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 23,
+                  "endLine": 109,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 26,
+                  "endLine": 115,
+                  "endColumn": 41
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 23,
+                  "endLine": 239,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 26,
+                  "endLine": 244,
+                  "endColumn": 41
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 283,
+                  "startColumn": 23,
+                  "endLine": 283,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 288,
+                  "startColumn": 26,
+                  "endLine": 288,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null,
+              "6": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'IdHabitacion' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 23,
+                  "endLine": 67,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 25,
+                  "endLine": 185,
+                  "endColumn": 39
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 34,
+                  "endLine": 187,
+                  "endColumn": 48
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 23,
+                  "endLine": 249,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 346,
+                  "startColumn": 25,
+                  "endLine": 346,
+                  "endColumn": 39
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 348,
+                  "startColumn": 34,
+                  "endLine": 348,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'datetime2' 8 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 23,
+                  "endLine": 89,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 26,
+                  "endLine": 93,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 23,
+                  "endLine": 99,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 26,
+                  "endLine": 103,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 267,
+                  "startColumn": 23,
+                  "endLine": 267,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 270,
+                  "startColumn": 26,
+                  "endLine": 270,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 275,
+                  "startColumn": 23,
+                  "endLine": 275,
+                  "endColumn": 34
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 278,
+                  "startColumn": 26,
+                  "endLine": 278,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null,
+              "6": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Habitaciones' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 24,
+                  "endLine": 122,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 24,
+                  "endLine": 133,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 33,
+                  "endLine": 186,
+                  "endColumn": 47
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 294,
+                  "startColumn": 24,
+                  "endLine": 294,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 303,
+                  "startColumn": 24,
+                  "endLine": 303,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 347,
+                  "startColumn": 33,
+                  "endLine": 347,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'nvarchar(50)' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 23,
+                  "endLine": 123,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 23,
+                  "endLine": 144,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 23,
+                  "endLine": 166,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 298,
+                  "startColumn": 26,
+                  "endLine": 298,
+                  "endColumn": 40
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 315,
+                  "startColumn": 26,
+                  "endLine": 315,
+                  "endColumn": 40
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/almacenamiento/Clases%20ESPE/Semestre%206/2534-PRUEBAS%20DE%20SOFTWARE/C%23/ReservasHotel/ReservasHotel/Migrations/20250121123131_Model.cs",
+                "region": {
+                  "startLine": 333,
+                  "startColumn": 26,
+                  "endLine": 333,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        }
+      ],
+      "rules": {
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1192": {
+          "id": "S1192",
+          "shortDescription": "String literals should not be duplicated",
+          "fullDescription": "Duplicated string literals make the process of refactoring complex and error-prone, as any change would need to be propagated on all occurrences.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1192",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

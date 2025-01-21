@@ -24,15 +24,24 @@ namespace ReservasHotel.Controllers
             return Ok(await _appDBcontext.ServiciosAdicionales.ToListAsync());
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetServicio(int id)
+        {
+            var servicio = await _appDBcontext.ServiciosAdicionales.FindAsync(id);
+
+            if (servicio == null) return NotFound("No existe un servicio con este id");
+
+            return Ok(servicio);
+        }
 
         [HttpPost]
         public async Task<IActionResult> CreateServicio(ServicioAdicional servicio)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
-            if (_appDBcontext.ServiciosAdicionales.Find(servicio.IdServicio) != null) return BadRequest("Ya existe un servicio con este id");
+            if (await _appDBcontext.ServiciosAdicionales.FindAsync(servicio.IdServicio) != null) return BadRequest("Ya existe un servicio con este id");
 
-            if (_appDBcontext.Reservas.Find(servicio.IdReserva) == null) return BadRequest("La reserva no existe");
+            if (await _appDBcontext.Reservas.FindAsync(servicio.IdReserva) == null) return BadRequest("La reserva no existe");
 
             if (servicio.Costo < 0) return BadRequest("El servicio no puede tener un costo negativo");
 
@@ -50,7 +59,7 @@ namespace ReservasHotel.Controllers
 
             if (servicioExistente == null) return NotFound("No existe un servicio con este id");
 
-            if (_appDBcontext.Reservas.Find(servicio.IdReserva) == null) return BadRequest("La reserva no existe");
+            if (await _appDBcontext.Reservas.FindAsync(servicio.IdReserva) == null) return BadRequest("La reserva no existe");
 
             if (servicio.Costo < 0) return BadRequest("El servicio no puede tener un costo negativo");
 
@@ -94,16 +103,26 @@ namespace ReservasHotel.Controllers
             return Ok(await _appDBcontext.Reservas.ToListAsync());
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetReserva(int id)
+        {
+            var reserva = await _appDBcontext.Reservas.FindAsync(id);
+
+            if (reserva == null) return NotFound("No existe una reserva con este id");
+
+            return Ok(reserva);
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateReserva(Reserva reserva)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
-            if (_appDBcontext.Reservas.Find(reserva.IdReserva) != null) return BadRequest("Ya existe una reserva con este id");
+            if (await _appDBcontext.Reservas.FindAsync(reserva.IdReserva) != null) return BadRequest("Ya existe una reserva con este id");
 
-            if (_appDBcontext.Habitaciones.Find(reserva.IdHabitacion) == null) return BadRequest("La habitación no existe.");
+            if (await _appDBcontext.Habitaciones.FindAsync(reserva.IdHabitacion) == null) return BadRequest("La habitación no existe.");
 
-            if (_appDBcontext.Clientes.Find(reserva.IdCliente) == null) return BadRequest("El cliente no existe.");
+            if (await _appDBcontext.Clientes.FindAsync(reserva.IdCliente) == null) return BadRequest("El cliente no existe.");
 
             if (reserva.FechaFin < reserva.FechaInicio) return BadRequest("La fecha de fin debe ser mayor a la de inicio.");
 
@@ -124,9 +143,9 @@ namespace ReservasHotel.Controllers
 
             if (reservaExistente == null) return NotFound("No existe una reserva con este id");
 
-            if (_appDBcontext.Habitaciones.Find(reserva.IdHabitacion) == null) return BadRequest("La habitación no existe");
+            if (await _appDBcontext.Habitaciones.FindAsync(reserva.IdHabitacion) == null) return BadRequest("La habitación no existe");
 
-            if (_appDBcontext.Clientes.Find(reserva.IdCliente) == null) return BadRequest("El cliente no existe");
+            if (await _appDBcontext.Clientes.FindAsync(reserva.IdCliente) == null) return BadRequest("El cliente no existe");
 
             if (reserva.FechaFin < reserva.FechaInicio) return BadRequest("La fecha de fin debe ser mayor a la de inicio");
 
@@ -174,7 +193,17 @@ namespace ReservasHotel.Controllers
             return Ok(await _appDBcontext.Clientes.ToListAsync());
         }
 
-        private bool EsCedulaValida(string ci)
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetCliente(int id)
+        {
+            var cliente = await _appDBcontext.Clientes.FindAsync(id);
+
+            if (cliente == null) return NotFound("No existe un cliente con este id");
+
+            return Ok(cliente);
+        }
+
+        private static bool EsCedulaValida(string ci)
         {
             // Verificar que tenga 10 dígitos
             if (ci.Length != 10 || !ci.All(char.IsDigit))
@@ -209,11 +238,11 @@ namespace ReservasHotel.Controllers
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
-            if (_appDBcontext.Clientes.Find(cliente.IdCliente) != null) return BadRequest("Ya existe un cliente con este id");
+            if (await _appDBcontext.Clientes.FindAsync(cliente.IdCliente) != null) return BadRequest("Ya existe un cliente con este id");
 
-            if (_appDBcontext.Clientes.Find(cliente.CI) != null) return BadRequest("Ya existe un cliente con esta cedula");
+            if (await _appDBcontext.Clientes.FindAsync(cliente.CI) != null) return BadRequest("Ya existe un cliente con esta cedula");
 
-            if (!EsCedulaValida(cliente.CI)) return BadRequest("La cédula ingresada no es válida");
+            if (cliente.CI != null && !EsCedulaValida(cliente.CI)) return BadRequest("La cédula ingresada no es válida");
 
             _appDBcontext.Clientes.Add(cliente);
             await _appDBcontext.SaveChangesAsync();
@@ -229,7 +258,7 @@ namespace ReservasHotel.Controllers
 
             if (clienteExistente == null) return NotFound("No existe un cliente con este id");
 
-            if (!EsCedulaValida(cliente.CI)) return BadRequest("La cédula ingresada no es válida");
+            if (cliente.CI != null && !EsCedulaValida(cliente.CI)) return BadRequest("La cédula ingresada no es válida");
 
             clienteExistente.Nombre = cliente.Nombre;
             clienteExistente.Apellido = cliente.Apellido;
@@ -272,12 +301,22 @@ namespace ReservasHotel.Controllers
             return Ok(await _appDBcontext.Habitaciones.ToListAsync());
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetHabitacion(int id)
+        {
+            var habitacion = await _appDBcontext.Habitaciones.FindAsync(id);
+
+            if (habitacion == null) return NotFound("No existe una habitación con este id");
+
+            return Ok(habitacion);
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateHabitacion(Habitacion habitacion)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
-            if (_appDBcontext.Habitaciones.Find(habitacion.IdHabitacion) != null) return BadRequest("Ya existe una habitación con este id");
+            if (await _appDBcontext.Habitaciones.FindAsync(habitacion.IdHabitacion) != null) return BadRequest("Ya existe una habitación con este id");
 
             _appDBcontext.Habitaciones.Add(habitacion);
             await _appDBcontext.SaveChangesAsync();

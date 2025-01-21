@@ -1,0 +1,17 @@
+﻿D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\AppDBContext.cs
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\Controllers\ReservasHotelController.cs
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\Migrations\20250116173636_InitalCreate.cs
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\Migrations\20250116173636_InitalCreate.Designer.cs
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\Migrations\20250121123131_Model.cs
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\Migrations\20250121123131_Model.Designer.cs
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\Migrations\AppDBContextModelSnapshot.cs
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\Program.cs
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\obj\Debug\net8.0\ReservasHotel.GlobalUsings.g.cs
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\obj\Debug\net8.0\ReservasHotel.AssemblyInfo.cs
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\obj\Debug\net8.0\ReservasHotel.MvcApplicationPartsAssemblyInfo.cs
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\appsettings.Development.json
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\appsettings.json
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\.env
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\ReservasHotel.http
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\ReservasHotel\Properties\launchSettings.json

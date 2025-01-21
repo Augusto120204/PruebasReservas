@@ -8483,23 +8483,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ariel\\.nuget\\packages\\": {},
+    "C:\\Users\\cesar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\TestReservas\\TestReservas.csproj",
+      "projectUniqueName": "D:\\almacenamiento\\Clases ESPE\\Semestre 6\\2534-PRUEBAS DE SOFTWARE\\C#\\ReservasHotel\\TestReservas\\TestReservas.csproj",
       "projectName": "TestReservas",
-      "projectPath": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\TestReservas\\TestReservas.csproj",
-      "packagesPath": "C:\\Users\\Ariel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\TestReservas\\obj\\",
+      "projectPath": "D:\\almacenamiento\\Clases ESPE\\Semestre 6\\2534-PRUEBAS DE SOFTWARE\\C#\\ReservasHotel\\TestReservas\\TestReservas.csproj",
+      "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
+      "outputPath": "D:\\almacenamiento\\Clases ESPE\\Semestre 6\\2534-PRUEBAS DE SOFTWARE\\C#\\ReservasHotel\\TestReservas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8514,8 +8514,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\ReservasHotel.csproj": {
-              "projectPath": "C:\\Users\\Ariel\\Desktop\\Pruebas\\PruebasReservas\\ReservasHotel\\ReservasHotel.csproj"
+            "D:\\almacenamiento\\Clases ESPE\\Semestre 6\\2534-PRUEBAS DE SOFTWARE\\C#\\ReservasHotel\\ReservasHotel\\ReservasHotel.csproj": {
+              "projectPath": "D:\\almacenamiento\\Clases ESPE\\Semestre 6\\2534-PRUEBAS DE SOFTWARE\\C#\\ReservasHotel\\ReservasHotel\\ReservasHotel.csproj"
             }
           }
         }

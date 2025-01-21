@@ -1,0 +1,7 @@
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\TestReservas\bin\Debug\net8.0\CoverletSourceRootsMapping_TestReservas
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\TestReservas\obj\Debug\net8.0\TestReservas.csproj.AssemblyReference.cache
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\TestReservas\obj\Debug\net8.0\TestReservas.GeneratedMSBuildEditorConfig.editorconfig
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\TestReservas\obj\Debug\net8.0\TestReservas.AssemblyInfoInputs.cache
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\TestReservas\obj\Debug\net8.0\TestReservas.AssemblyInfo.cs
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\TestReservas\obj\Debug\net8.0\TestReservas.csproj.CoreCompileInputs.cache
+D:\almacenamiento\Clases ESPE\Semestre 6\2534-PRUEBAS DE SOFTWARE\C#\ReservasHotel\TestReservas\obj\Debug\net8.0\TestReservas.sourcelink.json
